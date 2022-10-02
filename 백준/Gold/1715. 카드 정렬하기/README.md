@@ -26,3 +26,6 @@
 
  <p>첫째 줄에 최소 비교 횟수를 출력한다.</p>
 
+
+### 문제 풀이 방법
+<p> heapq를 사용하자!!! import heapq / heapq.heapify() / heapq.heappush(list_name, element) / heapq.heappop(list_name)</p>
