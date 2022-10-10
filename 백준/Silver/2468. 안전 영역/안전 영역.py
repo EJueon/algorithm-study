@@ -1,48 +1,47 @@
+# 입력
+# import sys 
 from collections import deque
- 
-n = int(input())
-graph = []
-maxNum = 0
- 
-for i in range(n):
-    graph.append(list(map(int, input().split())))
-    for j in range(n):
-        if graph[i][j] > maxNum:
-            maxNum = graph[i][j] 
- 
- 
- 
-dx = [0 ,0, 1, -1]
-dy = [1, -1, 0 ,0]
-def bfs(a, b, value, visited):
-    q = deque()
-    q.append((a, b))
-    visited[a][b] = 1
- 
-    while q:
-        x, y = q.popleft()
- 
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-            if 0 <= nx < n and 0 <= ny < n:
-                if graph[nx][ny] > value and visited[nx][ny] == 0:
-                    visited[nx][ny] = 1
-                    q.append((nx, ny))
- 
- 
-result = 0
-for i in range(maxNum): 
-    visited = [[0] * n for i in range(n)]
+# input = sys.stdin.readline
+N = int(input())
+area = []
+max_h = 0
+for col in range(N):
+    row = list(map(int, input().split()))
+    for r in row:
+        if r > max_h:
+            max_h = r
+    area.append(row)
+# 문제풀이  
+DELTAS = ((0,1), (0,-1), (1,0), (-1,0))
+
+def dfs(y, x, std, visited):
+    
+    queue = deque()
+    queue.append((y, x))
+    visited[y][x] = 1
+    
+    while queue:
+        y, x = queue.popleft()
+        for dy, dx in DELTAS:
+            ny, nx = y + dy, x + dx
+            # if ny < 0 or ny >= N or nx < 0 or nx >= N:
+                # continue
+            if 0 <= ny < N and 0 <= nx < N:
+                if area[ny][nx] > std and visited[ny][nx]==0:
+                    visited[ny][nx] = 1
+                    queue.append((ny, nx))
+
+ans = 0
+for std in range(max_h):
     cnt = 0
- 
-    for j in range(n):
-        for k in range(n):
-            if graph[j][k] > i and visited[j][k] == 0: 
-                bfs(j, k, i, visited)
-                cnt += 1
- 
-    if result < cnt:
-        result = cnt
- 
-print(result)
+    visited = [[0] * N for _ in range(N)]
+    for i in range(N):
+        for j in range(N):
+            if area[i][j] > std and visited[i][j]==0:
+                dfs(i, j, std, visited)
+                cnt += 1      
+    if ans < cnt:
+        ans = cnt
+print(ans)
+
+
