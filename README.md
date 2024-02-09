@@ -3,6 +3,6 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 
 ## 2024 1Q 푼 문제 목록
-| **number**       | **From** | Number | Title | Description | check |
+| **#**       | **From** | Number | Title | Description | check |
 |----------------|:--------:|:------:|-------|:-----------:|:--------:|
-| **** |백준||[]()|구현||
+| 1 |백준||[]()|구현||
