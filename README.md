@@ -7,4 +7,4 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |----------------|:--------:|:------:|-------|:-----------:|:--------:|
 | 1 |백준|4963|[섬의 개수]()|bfs|✅|
 | 2 |백준|13335|[트럭]()|시뮬레이션|✅ ⚠️|
-|  |백준||[]()|구현||
+| 3 |백준|2174|[로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)|시뮬레이션|✅ ⚠️|
