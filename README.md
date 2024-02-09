@@ -3,8 +3,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 
 ## 2024 1Q 푼 문제 목록
-✅ : 깔끔하게 해결한 문제
-☑️ : 풀었으나 빠르게 다시 한번 풀면 좋을 문제 
+- ✅ : 깔끔하게 해결한 문제
+- ☑️ : 풀었으나 빠르게 다시 한번 풀면 좋을 문제 
 | **#**       | **From** | Number | Title | Description | check |
 |----------------|:--------:|:------:|-------|:-----------:|:--------:|
 | 1 |백준|4963|[섬의 개수]()|bfs|✅|
