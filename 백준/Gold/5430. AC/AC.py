@@ -8,6 +8,7 @@ def process(P, arr):
     try:
         for p in P:
             if p == 'R':
+                # reverse 하는 process는 시간복잡도가 O(n)이므로 가장 마지막에 수행
                 r_flag = not r_flag
             elif p == 'D':
                 if not r_flag:
@@ -27,6 +28,7 @@ T = int(input())
 for _ in range(T):
     P = list(input())
     n = int(input())
+    # str to int array
     arr = input().split('\n')[0][1:-1].split(',')
     if '' in arr and len(arr) == 1:
         arr = []
