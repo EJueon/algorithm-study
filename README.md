@@ -12,4 +12,4 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 4 |백준|1987|[알파벳](https://www.acmicpc.net/problem/2174](https://www.acmicpc.net/problem/1987)https://www.acmicpc.net/problem/1987)|dfs|☑️|
 | 5 |백준|7562|[나이트의 이동](https://www.acmicpc.net/problem/7562)|bfs|✅|
 | 6 |백준|2636|[치즈](https://www.acmicpc.net/problem/2636)|bfs|✅|
-| 7 |백준|5430|[AC](https://www.acmicpc.net/problem/5430)|구현|✅|
+| 7 |백준|5430|[AC](https://www.acmicpc.net/problem/5430)|구현|✅|
