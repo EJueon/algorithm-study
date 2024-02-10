@@ -9,4 +9,4 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 1 |백준|4963|[섬의 개수]()|dfs/bfs|✅|
 | 2 |백준|13335|[트럭](https://www.acmicpc.net/problem/13335)|시뮬레이션|☑️|
 | 3 |백준|2174|[로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)|시뮬레이션|☑️|
-| 4 |백준|1987|[알파벳]([https://www.acmicpc.net/problem/2174](https://www.acmicpc.net/problem/1987)https://www.acmicpc.net/problem/1987)|dfs/bfs|☑️|
+| 4 |백준|1987|[알파벳](https://www.acmicpc.net/problem/2174](https://www.acmicpc.net/problem/1987)https://www.acmicpc.net/problem/1987)|dfs/bfs|☑️|
