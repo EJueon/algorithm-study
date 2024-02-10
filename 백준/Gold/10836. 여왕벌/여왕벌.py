@@ -37,7 +37,7 @@ def grow_relative(N, board):
             
 for order in orders:
     grow_by_orders(N, board, order)
-    grow_relative(N, board)
+grow_relative(N, board)
     
 
 print_board(board)
