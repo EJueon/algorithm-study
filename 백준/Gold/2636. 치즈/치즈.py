@@ -2,7 +2,7 @@ import sys
 from collections import deque
 input = sys.stdin.readline
 
-# 공기를 중심으로 치즈 겉을 찾아서 제거 
+# 공기(0)를 중심으로 치즈 겉을 찾아서 제거 
 R, C = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(R)]
 DELTAS = ((1, 0), (0, 1), (-1, 0), (0, -1))
@@ -29,9 +29,13 @@ def bfs(R, C, y, x):
 
 
 cheese_cnt = sum([sum(row) for row in board])
+
+# 처음부터 cheese가 없는 경우 예외처리
 if cheese_cnt == 0:
     print(0)
     print(0)
+    
+# cheese가 존재하는 경우
 else:
     cheese_cnts = [cheese_cnt]
     while True:
