@@ -16,6 +16,10 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 8 |G3|백준|2638|[치즈(골3)](https://www.acmicpc.net/problem/2638)|bfs|✅|
 | 9 |G5|백준|14719|[빗물](https://www.acmicpc.net/problem/14719)|시뮬레이션|☑️|
 | 10 |G4|백준|10836|[여왕벌](https://www.acmicpc.net/problem/10836)|시뮬레이션|☑️|
+| 11 |S1|백준|7562|[나이트의 이동](https://www.acmicpc.net/problem/7562)|시뮬레이션|✅|
+| 11 ||백준||[]()|||
+| 1 ||백준||[]()|||
+
 
 ## TODO
 - https://www.acmicpc.net/problem/19237
