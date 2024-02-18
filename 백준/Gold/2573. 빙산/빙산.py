@@ -1,5 +1,6 @@
 import sys
 from collections import deque
+sys.setrecursionlimit(10 ** 4) 
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
@@ -29,8 +30,6 @@ def count_iceberg(icebergs):
                         stack.append((ny, nx))
     return total_cnt
 
-
-
 def melt_ice(board, visited): 
     icebergs = []
     for y in range(N):
@@ -41,38 +40,25 @@ def melt_ice(board, visited):
                 icebergs.append((y, x))
     return icebergs
 
-def bfs(board, visited, y, x):
-    queue = deque()
-    queue.append((y, x))
-    visited[y][x] = -1
-    
-    while queue:
-        y, x = queue.popleft()
-        for dy, dx in DELTAS:
-            ny = y + dy
-            nx = x + dx
-            if ny < 0 or ny >= N or nx < 0 or nx >= M:
-                continue
-            if board[ny][nx] > 0:
-                visited[ny][nx] += 1
-            elif board[ny][nx] == 0 and visited[ny][nx] == 0:
-                visited[ny][nx] = -1
-                queue.append((ny, nx))
-
 def solution():
-    time = 0
+    year = 0
     while True:
-        time += 1
+        year += 1
         visited = [[0] * M for _ in range(N)]
-
         for y in range(N):
             for x in range(M):
-                if board[y][x] == 0 and visited[y][x] == 0:            
-                    bfs(board, visited, y, x)
-
+                if board[y][x] == 0: continue
+                for dy, dx in DELTAS:
+                    ny = y + dy
+                    nx = x + dx
+                    if ny < 0 or ny >= N or nx < 0 or nx >= M:
+                        continue
+                    if board[ny][nx] == 0:
+                        visited[y][x] += 1
+                   
         icebergs = melt_ice(board, visited)
         if len(icebergs) == 0: return 0
         if count_iceberg(icebergs) >= 2:
-            return time
+            return year
 print(solution())
     
