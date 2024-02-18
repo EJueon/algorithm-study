@@ -1,6 +1,5 @@
 import sys
 from collections import deque
-sys.setrecursionlimit(10 ** 4) 
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
@@ -40,25 +39,27 @@ def melt_ice(board, visited):
                 icebergs.append((y, x))
     return icebergs
 
+def find_melting(board, visited):
+    for y in range(N):
+        for x in range(M):
+            if board[y][x] == 0: continue
+            for dy, dx in DELTAS:
+                ny = y + dy
+                nx = x + dx
+                if ny < 0 or ny >= N or nx < 0 or nx >= M:
+                    continue
+                if board[ny][nx] == 0:
+                    visited[y][x] += 1
+
 def solution():
     year = 0
     while True:
         year += 1
         visited = [[0] * M for _ in range(N)]
-        for y in range(N):
-            for x in range(M):
-                if board[y][x] == 0: continue
-                for dy, dx in DELTAS:
-                    ny = y + dy
-                    nx = x + dx
-                    if ny < 0 or ny >= N or nx < 0 or nx >= M:
-                        continue
-                    if board[ny][nx] == 0:
-                        visited[y][x] += 1
-                   
+        find_melting(board, visited)
         icebergs = melt_ice(board, visited)
         if len(icebergs) == 0: return 0
         if count_iceberg(icebergs) >= 2:
             return year
+        
 print(solution())
-    
