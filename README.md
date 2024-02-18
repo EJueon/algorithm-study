@@ -3,7 +3,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 
 ## 2024 1Q 푼 문제 목록
-✅ : 깔끔하게 해결한 문제 / ☑️ : 풀었으나 빠르게 다시 한번 풀면 좋을 문제 
+✅ : 깔끔하게 해결한 문제 / ☑️ : 풀었으나 빠르게 다시 한번 풀면 좋을 문제 / 🔥 : 다시 풀어볼 문제 
 | **#** |**Level**| **From** | Number | Title | Description | check |
 |--------|--------|:--------:|:------:|-------|:-----------:|:--------:|
 | 1 |S2|백준|4963|[섬의 개수]()|bfs|✅|
@@ -20,6 +20,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 12 |G4|백준|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|시뮬레이션 + bfs|✅|
 | 13 |G4|백준|2574|[빙산](https://www.acmicpc.net/problem/2573)|bfs|☑️|
 | 14 |G5|백준|1717|[집합의 표현](https://www.acmicpc.net/problem/1717)|graph+서로소집합|☑️|
+| 15 |G5|백준|12904|[A와 B](https://www.acmicpc.net/problem/12904)|구현 + 스택|🔥|
 
 
 ## TODO
