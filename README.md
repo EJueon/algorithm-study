@@ -19,6 +19,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 11 |S1|백준|7562|[나이트의 이동](https://www.acmicpc.net/problem/7562)|bfs|✅|
 | 12 |G4|백준|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|시뮬레이션 + bfs|✅|
 | 13 |G4|백준|2574|[빙산](https://www.acmicpc.net/problem/2573)|bfs|☑️|
+| 14 |G5|백준|1717|[집합의 표현](https://www.acmicpc.net/problem/1717)|graph+서로소집합|☑️|
 
 
 ## TODO
