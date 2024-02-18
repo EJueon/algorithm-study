@@ -17,7 +17,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 9 |G5|백준|14719|[빗물](https://www.acmicpc.net/problem/14719)|시뮬레이션|☑️|
 | 10 |G4|백준|10836|[여왕벌](https://www.acmicpc.net/problem/10836)|시뮬레이션|☑️|
 | 11 |S1|백준|7562|[나이트의 이동](https://www.acmicpc.net/problem/7562)|bfs|✅|
-| 11 ||백준||[]()|||
+| 12 |G4|백준|11559|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|시뮬레이션 + bfs|✅|
 | 1 ||백준||[]()|||
 
 
