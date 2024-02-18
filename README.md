@@ -21,6 +21,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 13 |G4|백준|2574|[빙산](https://www.acmicpc.net/problem/2573)|bfs|☑️|
 | 14 |G5|백준|1717|[집합의 표현](https://www.acmicpc.net/problem/1717)|graph+서로소집합|☑️|
 | 15 |G5|백준|12904|[A와 B](https://www.acmicpc.net/problem/12904)|구현 + 스택|🔥|
+| 16 |L3|프로그래머스|43238|[입국 심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|이분 탐색/파라미터 서치|☑️|
 
 
 ## TODO
