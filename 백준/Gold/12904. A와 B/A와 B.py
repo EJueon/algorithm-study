@@ -19,3 +19,6 @@ def solution(S, T):
         return 0
 
 print(solution(S, T))
+
+
+# 도움 : https://velog.io/@jajubal/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%B0%B1%EC%A4%80-12904-A%EC%99%80-B
