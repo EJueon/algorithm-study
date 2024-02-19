@@ -22,6 +22,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 14 |G5|백준|1717|[집합의 표현](https://www.acmicpc.net/problem/1717)|graph+서로소집합|☑️|
 | 15 |G5|백준|12904|[A와 B](https://www.acmicpc.net/problem/12904)|구현 + 스택|🔥|
 | 16 |L3|프로그래머스|43238|[입국 심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|이분 탐색/파라미터 서치|☑️|
+| 17 |S2|백준|2805|[나무 자르기](https://www.acmicpc.net/problem/12904)|이분 탐색/파리미터 서치|✅|
 
 
 ## TODO
