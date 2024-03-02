@@ -9,9 +9,11 @@ K = int(input())
 W, H = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(H)]
 MAX_VALUE = 1e5
+
+# k 횟수에 따라 visited 경우를 구분해야함 
 visited = [[[MAX_VALUE] * (K + 1) for _ in range(W)] for _ in range(H)]
 
-def search(board, visited, ny, nx, y, x, k):
+def search(board, ny, nx):
     if ny >= H or ny < 0 or nx >= W or nx < 0 or board[ny][nx] == 1:
         return False
     
@@ -23,20 +25,22 @@ def bfs(board, visited, K):
     
     while queue:
         y, x, k = queue.popleft()
-        if y == H-1 and x == W-1: break
+        if y == H - 1 and x == W - 1: break
         if k > 0:
+            # horse 
             for dy, dx in HDELTAS:
                 ny, nx = y + dy, x + dx
-                if not search(board, visited, ny, nx, y, x, k):
+                if not search(board, ny, nx):
                     continue
                 if visited[ny][nx][k-1] <= visited[y][x][k] + 1:
                     continue
                 visited[ny][nx][k-1] = visited[y][x][k] + 1
                 queue.append((ny, nx, k-1))
-        
+
+        # monkey
         for dy, dx in MDELTAS:
             ny, nx = y + dy, x + dx
-            if not search(board, visited, ny, nx, y, x, k):
+            if not search(board, ny, nx):
                 continue
             if visited[ny][nx][k] <= visited[y][x][k] + 1:
                 continue
