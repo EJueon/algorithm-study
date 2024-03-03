@@ -2,7 +2,7 @@
 This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
 
-## 2024 1Q 푼 문제 목록
+## 2024 1Q 푼 문제 목록 (~24.03)
 ✅ : 깔끔하게 해결한 문제 / ☑️ : 풀었으나 빠르게 다시 한번 풀면 좋을 문제 (30-1시간 오버) / 🔥 : 다시 풀어볼 문제 
 | **#** |**Level**| **From** | Number | Title | Description | check |
 |--------|--------|:--------:|:------:|-------|:-----------:|:--------:|
