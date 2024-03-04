@@ -29,7 +29,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 21 |G3|백준|1600|[말이 되고 싶은 원숭이](https://www.acmicpc.net/problem/1600)|bfs|☑️|
 | 22 |G3|백준|1520|[내리막 길](https://www.acmicpc.net/problem/1520)|DP & dfs|🔥|
 | 23 |G5|백준|2589|[보물섬](https://www.acmicpc.net/problem/2589)|bfs|✅|
-| 24 |G2|백준|19238|[보물섬](https://www.acmicpc.net/problem/19238)|시뮬레이션|☑️|
+| 24 |G2|백준|19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|시뮬레이션|☑️|
 
 ## TODO
 - https://www.acmicpc.net/problem/19237
