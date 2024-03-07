@@ -32,6 +32,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | 24 |G2|백준|19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|시뮬레이션|☑️|
 | 25 |G3|백준|16235|[나무 재태크](https://www.acmicpc.net/problem/16235)|시뮬레이션|🔥|
 | 26 |G4|백준|3055|[탈출](https://www.acmicpc.net/problem/3055)|bfs|✅|
+| 27 |G4|백준|5427|[불!](https://www.acmicpc.net/problem/5427)|bfs|☑️|
 
 ## TODO
 - https://www.acmicpc.net/problem/19237
